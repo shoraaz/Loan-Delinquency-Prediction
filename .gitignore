@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Raw vendor files (contain personal identifiers) - never commit
+data/raw/*
+!data/raw/.gitkeep
+
+# Brief / confidential documents
+*.docx
+
+# OS / editor
+.DS_Store
+__MACOSX/
+.idea/
+.vscode/
